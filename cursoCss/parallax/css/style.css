@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+
+
+body, html{
+    height: 100%;
+    margin: 0;
+    font-family: "Roboto Condensed", sans-serif;
+    line-height: 100%;
+    color:#444;
+    text-align: center;
+}
+
+.foto1{
+    background-image: url(/assets/suvrajit-s-VitSTOycFf0-unsplash.jpg);
+    min-height: 100%;
+}
+.foto2{
+    background-image: url(/assets/omid-armin-f52MbWSVvRQ-unsplash.jpg);
+    min-height: 80%;
+}
+.foto3{
+    background-image: url(/assets/ricky-Jsb-huTk8d4-unsplash.jpg);
+    min-height: 70%;
+}
+.foto4{
+    background-image: url(/assets/volkan-vardar-V-NkAp2M8hs-unsplash.jpg);
+    min-height: 100%;
+}
+
+.foto1, .foto2, .foto3, .foto4{
+    position: relative;
+    opacity: 0.75;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.letrero{
+    color: #fbfbfb;
+    font-size: 550%;
+    position: absolute;
+    top: 50%;
+}
+
+.letrero2{
+    color: #cbc5da;
+    font-size: 450%;
+    top: 66%;
+}
+
+.letrero3{
+    color: #ddefae;
+    font-size: 350%;
+    top: 79%;
+}
+.letrero4{
+    color: white;
+    font-size: 250%;
+    top: 45%;
+}
+
+.letrero, .letrero2, .letrero3, .letrero4{
+    position: absolute;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    text-shadow: 0 0 10px #000;
+}
+
+section{
+    padding: 50px 80px;
+}
+
+.dark{
+    background-color: #444;
+    color: white;
+}
+
+@media(max-width: 768px){
+    .letrero{
+        font-size: 150%;
+    }
+
+    .letrero2{
+        font-size: 100%;
+    }
+
+    .letrero3{
+        font-size: 70%;
+    }
+    .letrero4{
+        font-size: 100%;
+    }
+}
+

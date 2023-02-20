@@ -1,0 +1,23 @@
+body{
+    background-color: #dcdcdc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    /* la principal sera la verdana si esta no funciona pasa a geneva y asi consecutivamente */
+    font-size: 20px ;
+    font-weight: bold;
+    /* font: bold 20px Verdana, Gemeva, Tahoma, sans-serif; */
+    /* esto es lo mismo de arriba indicado en una sola linea de codigo */
+}
+
+h1{
+    color: green;
+
+}
+p{
+    background-color: #333;
+    color: #fff;
+}
+
+h1:hover{
+background-color: red;
+}
+

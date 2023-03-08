@@ -124,6 +124,7 @@ student.enroll("React");
 
 
 interface Human {
+    firstName: string;
     age: number;
 
     greet: () => void; 
